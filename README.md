@@ -8,7 +8,7 @@ It uses the convenient all-relevant feature selection algorithm [Boruta](https:/
 
 Wetsisan is adapted for the processing of csv files, in which rows represent observations and columns represent predictors/tokens.
 
-Wetsisan is the Australian Kriol word for monsoon. (the interface was designed by Dr. Gautier Durantin and first used to process the Kriol corpus collected by Dr. Greg Dickson at the [Centre of Excellence for the Dynamics of Language](www.dynamicsoflanguage.edu.au/))
+Wetsisan is the Australian Kriol word for monsoon. (the interface was first used to process the Kriol corpus collected by Dr. Greg Dickson at the [Centre of Excellence for the Dynamics of Language](www.dynamicsoflanguage.edu.au/))
 
 ## Installation
 
@@ -30,7 +30,7 @@ run_wetsisan()
 
 The navigation tabs at the top of the interface take you through the different steps of the pipeline.
 
-<img src="man/figures/screenshot.png" align="center" width="300px" />
+<img src="man/figures/screenshot.png" align="center" width="500px" />
 
 ### Loading panel
 
