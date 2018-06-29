@@ -1,0 +1,15 @@
+Package: wetsisan
+Title: Wetsisan
+Version: 0.0.0.9000
+Authors@R: person("Gautier", "Durantin", email = "g.durantin@uq.edu.au", role = c("aut", "cre"))
+Description: Wetsisan provides a graphical interface to support 
+    the exploration of predictor importance in linguistic datasets.
+Depends: R (>= 3.4.1)
+License: MIT + file LICENSE,
+Encoding: UTF-8
+LazyData: true
+Imports:
+    tidyverse,
+    shiny,
+	shinythemes,
+	Boruta
