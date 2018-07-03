@@ -42,7 +42,7 @@ ui <- fluidPage(theme = shinytheme("flatly"),
   
   
   # App title
-  headerPanel(title = span(tagList(icon("cloud"), "Wetsisan"))),
+  headerPanel(title = div(img(src='logo_ws.png',width=80), "Wetsisan")),
 
   
   
