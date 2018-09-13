@@ -1,0 +1,66 @@
+minimal_mistakes_skin: "aqua"
+
+title: Wetsisan Documentation
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+  Documentation for the Wetsisan Project
+baseurl: /wetsisan
+url: https://coedl.github.io
+#twitter_username: mmistakes
+#github_username: mmistakes
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+#timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+search: false
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-remote-theme
+
+#author:
+#  name   : "Michael Rose"
+#  avatar : "/assets/images/bio-photo.jpg"
+#  bio    : "My awesome biography constrained to a sentence or two goes here."
+#  email  : # optional
+#  uri    : 
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+include:
+  - _pages
+  - assets
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+defaults:
+  # _docs
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      comments: true
+      share: true
+      toc: false
+      sidebar:
+        nav: "pages"
+      related: true
